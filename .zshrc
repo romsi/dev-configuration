@@ -7,6 +7,9 @@ export ZSH=/Users/romsi/.oh-my-zsh
 # time that oh-my-zsh is loaded.
 ZSH_THEME="agnoster-romsi"
 
+# Syntax highlighting
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
@@ -49,7 +52,7 @@ ZSH_CUSTOM=$HOME/.custom
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git osx rake ruby)
+plugins=(git osx rake ruby zsh-autosuggestions)
 
 # User configuration
 
